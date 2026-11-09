@@ -1,25 +1,23 @@
 ---
 title: "AI assistants for everyday tasks"
-subtitle: "Choose the exercises that fit your work"
 ---
-
 # Getting started {#getting-started}
 
-These short activities show how AI assistants can help with common tasks: understanding documents, checking forms, drafting emails, processing notes and planning activities. We are using **UU AI-Chat** as the university's approved platform.
+These short activities show how AI assistants can help with common tasks: summarizing documents, checking forms, drafting emails, processing notes and planning activities. We are using **UU AI-Chat** as the university's approved platform.
 
 1. Open **[UU AI-Chat](https://aichat.uu.nl/)** and sign in with your UU account.
-2. Use the **Contents** sidebar to choose an activity. Exercises start **collapsed**. Select one from the sidebar or click its title to expand it.
-3. Open or download the linked fictional material, then **paste its text or upload the file** where supported. Copy the suggested prompt into UU AI-Chat and inspect the result.
+2. Choose any exercise relevant to your work. The instructions are meant as guidance, so feel free to adapt the exercises to your needs and interests.
+3. Open or download the linked materials and share them with UU AI-Chat by **pasting the text** or **uploading the files**. You can use the suggested prompt as a starting point and adapt it to your needs.
 
-[Optional introductory slides](slides/UU_AI_Chat_Admin_Intro.pptx)
+[Link to slides](slides/UU_AI_Chat_Admin_Intro.pptx)
 
-All training documents are **fictional**, not official Utrecht University rules or forms. Do not upload real confidential, personal, or sensitive records without the necessary permission and data-protection checks. Check AI responses against the original sources before using them.
+All exercise material below are **AI generated** and do not come from official Utrecht University documents.
 
 # Choose an exercise {#choose-exercise}
 
 | Task | Exercises |
 |---|---|
-| Read and check documents | [1. Decode a guide](#exercise-1-decode-administrative-instructions) · [2. Review a form](#exercise-2-review-a-completed-form) · [5. Compare procedures](#exercise-5-compare-two-versions-of-a-procedure) · [6. Create an FAQ](#exercise-6-turn-a-procedure-into-an-faq) |
+| Read and check documents | [1. Explain administrative guidelines](#exercise-1-decode-administrative-instructions) · [2. Review a form](#exercise-2-review-a-completed-form) · [5. Compare procedures](#exercise-5-compare-two-versions-of-a-procedure) · [6. Create an FAQ](#exercise-6-turn-a-procedure-into-an-faq) |
 | Communicate | [3. Write an email](#exercise-3-draft-or-improve-an-email) · [7. Translate a message](#exercise-7-translate-and-simplify-a-message) |
 | Organise work | [4. Process meeting notes](#exercise-4-process-meeting-notes) · [8. Plan an event](#exercise-8-plan-a-departmental-event) · [9. Check a spreadsheet](#exercise-9-check-a-simple-spreadsheet) |
 | Personalise | [10. Try your own task](#exercise-10-bring-your-own-task) |
@@ -70,5 +68,3 @@ These optional exercises demonstrate reusable instructions and workspaces. You c
 **Which repetitive or time-consuming tasks would you most like AI to help with?** Which parts could be assisted with a chat or reusable setup, and which would still require your judgement, university system access or formal authorisation?
 
 For more information: [UU AI platforms](https://www.uu.nl/en/organisation/ai-policy/ai-platforms) · [UU guidance for employees](https://www.uu.nl/en/organisation/ai-policy/employees).
-
-These examples demonstrate assistance with work, **not automatic approval or compliance verification**. Keep sensitive information out unless the intended use is authorised.
