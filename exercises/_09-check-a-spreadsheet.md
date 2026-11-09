@@ -2,7 +2,7 @@
 
 ::: {.callout-note collapse="true" appearance="minimal" icon=false title="Open exercise"}
 
-**Scenario.** You have a small list of purchases for an event and want help checking calculations. No spreadsheet expertise is required.
+**Scenario.** You have a small list of purchases for an event and want to check the calculations.
 
 **Attach:** [08_simulated_purchases.csv](materials/08_simulated_purchases.csv).
 

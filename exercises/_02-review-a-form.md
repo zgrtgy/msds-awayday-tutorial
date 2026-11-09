@@ -14,9 +14,9 @@ Review the attached completed claim against the attached reimbursement guide.
 List possible mistakes or missing information in a table with: item, problem, relevant rule, and suggested next step. Check the arithmetic. Distinguish clear mismatches from points that need clarification. Do not assume that missing approvals exist or that the claim has been approved.
 ```
 
-**Then try:** Ask the AI which entries appear to comply with the guide, not just which ones are problematic.
+**Then try:** Ask which entries appear to comply with the guide, not just which ones are problematic.
 
-**Check:** Did it catch the deliberate issues without inventing additional requirements? Did it distinguish a definite error from an open question? **You**, not the AI, would decide what to change or submit.
+**Check:** Did it catch the deliberate issues without inventing additional requirements? Did it distinguish a definite error from an open question? Review the findings before deciding what to change or submit.
 
 **Want to reuse this?** Try [Exercise 12](#exercise-12-build-a-reusable-form-reviewer-persona) to configure a form-reviewing Persona and test it on a different claim.
 

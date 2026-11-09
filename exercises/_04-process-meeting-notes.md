@@ -2,7 +2,7 @@
 
 ::: {.callout-note collapse="true" appearance="minimal" icon=false title="Open exercise"}
 
-**Scenario.** You have rough notes from a planning meeting and need a usable follow-up list.
+**Scenario.** You have rough notes from a planning meeting and need to identify decisions and next steps.
 
 **Attach:** [03_simulated_meeting_notes.md](materials/03_simulated_meeting_notes.md).
 

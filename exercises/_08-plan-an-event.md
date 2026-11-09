@@ -1,4 +1,4 @@
-## Exercise 8: Plan a departmental event {#exercise-8-plan-a-departmental-event}
+## Exercise 8: Plan an event {#exercise-8-plan-a-departmental-event}
 
 ::: {.callout-note collapse="true" appearance="minimal" icon=false title="Open exercise"}
 

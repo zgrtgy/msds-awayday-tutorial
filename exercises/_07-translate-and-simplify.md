@@ -9,9 +9,9 @@
 **Try this prompt:**
 
 ```text
-Translate the attached Dutch announcement into clear, natural English for international university staff.
+Translate the attached Dutch announcement into clear, natural English for international colleagues.
 
-Keep the dates, registration deadline, and distinction between confirmed and unconfirmed details exactly as in the original. Use friendly, straightforward language without adding new information.
+Keep the dates, registration deadline, and distinction between confirmed and unconfirmed details exactly as in the original. Use clear, professional language without adding new information.
 ```
 
 **Then try:** Ask for a shorter version suitable for a newsletter or a plain-Dutch rewrite of the original.
