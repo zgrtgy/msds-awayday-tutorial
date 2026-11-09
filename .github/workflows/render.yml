@@ -1,0 +1,48 @@
+name: Render workshop website
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - index.qmd
+      - _quarto.yml
+      - styles.css
+      - 'exercises/**'
+      - 'materials/**'
+      - 'slides/**'
+      - 'scripts/**'
+      - '.github/workflows/render.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: workshop-render
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Render website
+        run: python scripts/build_tutorial.py --department admin --render
+
+      - name: Commit rendered site
+        run: |
+          git add -A docs/
+          if git diff --cached --quiet; then
+            echo "Rendered site is already up to date."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Update rendered workshop website [skip ci]"
+            git push
+          fi
