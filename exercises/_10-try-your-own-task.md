@@ -2,7 +2,7 @@
 
 ::: {.callout-note collapse="true" appearance="minimal" icon=false title="Open exercise"}
 
-**Scenario.** You have a recurring task that is not covered by the examples.
+**Scenario:** You have a task you do regularly that is not covered by the examples.
 
 **Choose a real *type of task*, but use fictional or approved non-sensitive example content.** For example: rewriting reminders, summarising guidance, making a checklist or checking the structure of a form.
 

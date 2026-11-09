@@ -2,16 +2,16 @@
 
 ::: {.callout-note collapse="true" appearance="minimal" icon=false title="Open exercise"}
 
-**Scenario.** If you review forms regularly, a Persona can reuse the same instructions for each new form.
+**Scenario:** If you review forms regularly, a Persona can reuse the same instructions for each new form.
 
 **Use:** [01_simulated_reimbursement_guide.md](materials/01_simulated_reimbursement_guide.md), [02_simulated_completed_claim.md](materials/02_simulated_completed_claim.md), and [09_simulated_second_claim.md](materials/09_simulated_second_claim.md).
 
 1. If you have not done Exercise 2, first attach the guide and first claim to a normal chat and request a check using the Exercise 2 prompt.
 2. Open **Personas** and create a Persona named *Expense claim reviewer*. Give it the instructions below. If the Persona editor supports **Sources/reference documents**, attach the fictional reimbursement guide there. Otherwise attach the guide whenever you use the Persona.
 3. Open a **new chat using the Persona** and attach [09_simulated_second_claim.md](materials/09_simulated_second_claim.md) (and the guide if it is not attached to the Persona).
-4. Ask: *Review this draft claim against the reimbursement guide. What requires attention, and what appears compliant?*
+4. Ask: *Review this draft claim against the reimbursement guide. What needs attention, and which parts follow the rules?*
 
-**Persona instructions** (save these as the Persona's working method, not as a one-time chat message):
+**Persona instructions:** Save these in the Persona, not as a one-time chat message.
 
 ```text
 Review draft expense claims against a supplied procedure.
@@ -21,7 +21,7 @@ Check required fields, supporting receipts, approvals, deadlines, expense limits
 Use only the supplied guide as the authority. Do not invent requirements, approve claims or submit anything. End with a short list of issues for a person to review.
 ```
 
-**Check:** Does the Persona identify the *new* claim's issues without carrying over problems unique to the first claim? Can it show which rules support its findings? Would a saved Prompt be sufficient here, or does the Persona offer a useful advantage?
+**Check:** Does the Persona identify problems in the *new* claim without repeating problems unique to the first claim? Can it show which rules support its findings? Would a saved Prompt be enough here, or does the Persona offer a useful advantage?
 
 *If source attachment or Persona settings differ in UU AI-Chat, keep the instructions in the Persona and attach the guide within the chat. The aim is to test reusable instructions, not a particular settings panel.*
 
