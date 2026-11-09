@@ -10,8 +10,7 @@ A single-page, pick-your-own-exercise tutorial for making everyday university ad
 - `scripts/build_tutorial.py` — thin wrapper around Quarto's `render` command.
 - `_quarto.yml`, `styles.css` — layout, left table of contents, copy buttons, publishing to `/docs`.
 - `docs/` — generated site; commit this to publish. Quarto will refresh it when you render.
-- `slides/` — optional introductory presentation.
-- `instructor/` — local facilitator notes, **excluded by `.gitignore`**. They must not be committed to the public repository. **If uploading through GitHub’s website rather than `git add`, manually omit this folder; `.gitignore` does not protect web uploads.**
+- `slides/` —  introductory presentation.
 
 Keep each exercise heading (`##`) outside its collapsible callout so that it is always shown in the left contents menu. The materials are fictional and are **not** official UU policy or live forms.
 

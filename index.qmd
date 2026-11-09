@@ -68,6 +68,10 @@ These optional exercises demonstrate reusable instructions and workspaces. You c
 
 {{< include exercises/_13-use-a-project.md >}}
 
+# Learn more
+- [Online course on using AI Chat (by UvA)](https://edu.nl/r4duh)
+- [Modules and courses on AI literacy from Utrecht University](https://www.uu.nl/en/organisation/ai-policy/about-ai-at-uu/modules-and-courses)
+- [User manual (by UvA)](https://edu.nl/wg8v4)
 
 # Wrap-up and discussion
 **Which tasks would you consider using AI assistants for in your own work?** 
