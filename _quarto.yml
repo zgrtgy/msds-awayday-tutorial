@@ -16,7 +16,9 @@ format:
     toc: true
     toc-location: left
     toc-depth: 2
+    toc-expand: true
     code-copy: true
     code-overflow: wrap
     embed-resources: true
     css: styles.css
+    include-after-body: scripts/exercise_navigation.html

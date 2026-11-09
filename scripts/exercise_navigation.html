@@ -1,0 +1,64 @@
+<script>
+// A single handler for both Quarto callouts and the included HTML preview.
+(() => {
+  const exercises = new Map();
+  document.querySelectorAll('h2').forEach(heading => {
+    const section = heading.closest('section[id^="exercise-"]');
+    const id = section?.id || (heading.id?.startsWith('exercise-') ? heading.id : null);
+    const panel = heading.nextElementSibling;
+    if (!id || !panel?.matches('.callout, details')) return;
+
+    const toggle = panel.matches('details') ? null : panel.querySelector('[data-bs-toggle="collapse"]');
+    if (!panel.matches('details') && !toggle) return;
+    const isOpen = () => panel.matches('details') ? panel.open : toggle.getAttribute('aria-expanded') === 'true';
+    const setOpen = open => {
+      if (isOpen() !== open) {
+        if (panel.matches('details')) panel.open = open;
+        else toggle.click();
+      }
+      heading.setAttribute('aria-expanded', String(open));
+    };
+
+    exercises.set(id, { heading, setOpen });
+    heading.classList.add('exercise-title-toggle');
+    heading.tabIndex = 0;
+    heading.setAttribute('role', 'button');
+    heading.setAttribute('aria-expanded', String(isOpen()));
+    panel.classList.add('exercise-panel');
+    heading.addEventListener('click', event => {
+      if (event.target.closest('a')) return;
+      setOpen(heading.getAttribute('aria-expanded') !== 'true');
+    });
+    heading.addEventListener('keydown', event => {
+      if (event.key !== 'Enter' && event.key !== ' ') return;
+      event.preventDefault();
+      setOpen(heading.getAttribute('aria-expanded') !== 'true');
+    });
+  });
+
+  const navigate = id => {
+    const exercise = exercises.get(id);
+    if (!exercise) return;
+    exercise.setOpen(true);
+    // Expand before scrolling, so changing the document height cannot shift the target.
+    requestAnimationFrame(() => requestAnimationFrame(() =>
+      exercise.heading.scrollIntoView({ block: 'start', behavior: 'instant' })));
+  };
+
+  document.addEventListener('click', event => {
+    const link = event.target.closest('a[href^="#exercise-"]');
+    if (!link) return;
+    const id = decodeURIComponent(link.hash.slice(1));
+    if (!exercises.has(id)) return;
+    event.preventDefault();
+    event.stopPropagation();
+    if (location.hash !== link.hash) history.pushState(null, '', link.hash);
+    navigate(id);
+  }, true);
+
+  const navigateFromHash = () => navigate(decodeURIComponent(location.hash.slice(1)));
+  window.addEventListener('hashchange', navigateFromHash);
+  window.addEventListener('popstate', navigateFromHash);
+  if (location.hash) navigateFromHash();
+})();
+</script>

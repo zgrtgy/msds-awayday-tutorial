@@ -1,15 +1,14 @@
 ---
-title: "UU AI-Chat: Everyday administrative tasks"
+title: "AI assistants for everyday tasks"
 subtitle: "Choose the exercises that fit your work"
-author: "Department workshop materials"
 ---
 
 # Getting started {#getting-started}
 
-These short activities show how **UU AI-Chat** can help with common university tasks: understanding documents, checking forms, drafting emails, processing notes and planning activities. They are designed for lecturers, researchers and administrative staff; no programming experience is needed.
+These short activities show how AI assistants can help with common tasks: understanding documents, checking forms, drafting emails, processing notes and planning activities. We are using **UU AI-Chat** as the university's approved platform.
 
 1. Open **[UU AI-Chat](https://aichat.uu.nl/)** and sign in with your UU account.
-2. Use the **Contents** sidebar to choose an activity. Exercise sections start **collapsed**; open only those you want.
+2. Use the **Contents** sidebar to choose an activity. Exercises start **collapsed**. Select one from the sidebar or click its title to expand it.
 3. Open or download the linked fictional material, then **paste its text or upload the file** where supported. Copy the suggested prompt into UU AI-Chat and inspect the result.
 
 [Optional introductory slides](slides/UU_AI_Chat_Admin_Intro.pptx)
@@ -32,7 +31,7 @@ All training documents are **fictional**, not official Utrecht University rules 
 **Chat** handles a one-off task; **saved Prompts** reuse instructions; **Personas** reuse an assistant's working method or reference material; **Projects** keep related chats and files together. These features assist work—they do not automatically send emails, approve forms or change university systems.
 :::
 
-# Everyday administrative tasks
+# Everyday tasks
 
 {{< include exercises/_01-decode-administrative-documents.md >}}
 
@@ -68,8 +67,8 @@ These optional exercises demonstrate reusable instructions and workspaces. You c
 
 # Wrap-up and discussion
 
-**Which repetitive or time-consuming administrative tasks would you most like AI to help with?** Which parts could be assisted with a chat or reusable setup, and which would still require your judgement, university system access or formal authorisation?
+**Which repetitive or time-consuming tasks would you most like AI to help with?** Which parts could be assisted with a chat or reusable setup, and which would still require your judgement, university system access or formal authorisation?
 
 For more information: [UU AI platforms](https://www.uu.nl/en/organisation/ai-policy/ai-platforms) · [UU guidance for employees](https://www.uu.nl/en/organisation/ai-policy/employees).
 
-These examples demonstrate assistance with administrative work, **not automatic approval or compliance verification**. Keep sensitive information out unless the intended use is authorised.
+These examples demonstrate assistance with work, **not automatic approval or compliance verification**. Keep sensitive information out unless the intended use is authorised.

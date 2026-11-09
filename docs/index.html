@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Department workshop materials">
 
-<title>UU AI-Chat: Everyday administrative tasks – UU AI-Chat: Administrative tasks</title>
+<title>AI assistants for everyday tasks – UU AI-Chat: Administrative tasks</title>
 <style>
 
 code{white-space: pre-wrap;}
@@ -3995,6 +3994,27 @@ main .callout .callout-header { cursor: pointer; }
 main pre { white-space: pre-wrap; overflow-wrap: anywhere; }
 main pre code { white-space: pre-wrap; overflow-wrap: anywhere; }
 #TOC { max-height: calc(100vh - 5rem); overflow-y: auto; }
+
+.exercise-title-toggle {
+cursor: pointer;
+padding: .7rem .9rem;
+margin-bottom: 0;
+border: 1px solid #d9e1e5;
+border-radius: .4rem;
+background: #f4f7fa;
+scroll-margin-top: 5rem;
+}
+.exercise-title-toggle::before {
+content: "▸";
+display: inline-block;
+width: 1.2rem;
+color: #24527a;
+}
+.exercise-title-toggle[aria-expanded="true"]::before { content: "▾"; }
+.exercise-title-toggle:focus-visible { outline: 3px solid #4285c5; outline-offset: 3px; }
+.exercise-panel { margin-top: 0 !important; border-top: 0 !important; }
+.exercise-panel > .callout-header,
+.exercise-panel > summary { display: none; }
 </style>
 </head>
 
@@ -4005,13 +4025,13 @@ main pre code { white-space: pre-wrap; overflow-wrap: anywhere; }
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <nav id="TOC" role="doc-toc" class="toc-active">
+    <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
     <h2 id="toc-title">On this page</h2>
    
   <ul class="collapse">
   <li><a href="#getting-started" id="toc-getting-started" class="nav-link active" data-scroll-target="#getting-started">Getting started</a></li>
   <li><a href="#choose-exercise" id="toc-choose-exercise" class="nav-link" data-scroll-target="#choose-exercise">Choose an exercise</a></li>
-  <li><a href="#everyday-administrative-tasks" id="toc-everyday-administrative-tasks" class="nav-link" data-scroll-target="#everyday-administrative-tasks">Everyday administrative tasks</a>
+  <li><a href="#everyday-tasks" id="toc-everyday-tasks" class="nav-link" data-scroll-target="#everyday-tasks">Everyday tasks</a>
   <ul class="collapse">
   <li><a href="#exercise-1-decode-administrative-instructions" id="toc-exercise-1-decode-administrative-instructions" class="nav-link" data-scroll-target="#exercise-1-decode-administrative-instructions">Exercise 1: Decode administrative instructions</a></li>
   <li><a href="#exercise-2-review-a-completed-form" id="toc-exercise-2-review-a-completed-form" class="nav-link" data-scroll-target="#exercise-2-review-a-completed-form">Exercise 2: Review a completed form</a></li>
@@ -4043,7 +4063,7 @@ main pre code { white-space: pre-wrap; overflow-wrap: anywhere; }
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">UU AI-Chat: Everyday administrative tasks</h1>
+<h1 class="title">AI assistants for everyday tasks</h1>
 <p class="subtitle lead">Choose the exercises that fit your work</p>
 </div>
 
@@ -4051,12 +4071,6 @@ main pre code { white-space: pre-wrap; overflow-wrap: anywhere; }
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Department workshop materials </p>
-          </div>
-  </div>
     
   
     
@@ -4069,10 +4083,10 @@ main pre code { white-space: pre-wrap; overflow-wrap: anywhere; }
 
 <section id="getting-started" class="level1">
 <h1>Getting started</h1>
-<p>These short activities show how <strong>UU AI-Chat</strong> can help with common university tasks: understanding documents, checking forms, drafting emails, processing notes and planning activities. They are designed for lecturers, researchers and administrative staff; no programming experience is needed.</p>
+<p>These short activities show how AI assistants can help with common tasks: understanding documents, checking forms, drafting emails, processing notes and planning activities. We are using <strong>UU AI-Chat</strong> as the university’s approved platform.</p>
 <ol type="1">
 <li>Open <strong><a href="https://aichat.uu.nl/">UU AI-Chat</a></strong> and sign in with your UU account.</li>
-<li>Use the <strong>Contents</strong> sidebar to choose an activity. Exercise sections start <strong>collapsed</strong>; open only those you want.</li>
+<li>Use the <strong>Contents</strong> sidebar to choose an activity. Exercises start <strong>collapsed</strong>. Select one from the sidebar or click its title to expand it.</li>
 <li>Open or download the linked fictional material, then <strong>paste its text or upload the file</strong> where supported. Copy the suggested prompt into UU AI-Chat and inspect the result.</li>
 </ol>
 <p><a href="slides/UU_AI_Chat_Admin_Intro.pptx">Optional introductory slides</a></p>
@@ -4122,8 +4136,8 @@ main pre code { white-space: pre-wrap; overflow-wrap: anywhere; }
 </div>
 </div>
 </section>
-<section id="everyday-administrative-tasks" class="level1">
-<h1>Everyday administrative tasks</h1>
+<section id="everyday-tasks" class="level1">
+<h1>Everyday tasks</h1>
 <section id="exercise-1-decode-administrative-instructions" class="level2">
 <h2 class="anchored" data-anchor-id="exercise-1-decode-administrative-instructions">Exercise 1: Decode administrative instructions</h2>
 <div class="callout callout-style-simple callout-note no-icon callout-titled" title="Open exercise">
@@ -4498,14 +4512,78 @@ Use only the supplied guide as the authority. Do not invent requirements, approv
 </section>
 <section id="wrap-up-and-discussion" class="level1">
 <h1>Wrap-up and discussion</h1>
-<p><strong>Which repetitive or time-consuming administrative tasks would you most like AI to help with?</strong> Which parts could be assisted with a chat or reusable setup, and which would still require your judgement, university system access or formal authorisation?</p>
+<p><strong>Which repetitive or time-consuming tasks would you most like AI to help with?</strong> Which parts could be assisted with a chat or reusable setup, and which would still require your judgement, university system access or formal authorisation?</p>
 <p>For more information: <a href="https://www.uu.nl/en/organisation/ai-policy/ai-platforms">UU AI platforms</a> · <a href="https://www.uu.nl/en/organisation/ai-policy/employees">UU guidance for employees</a>.</p>
-<p>These examples demonstrate assistance with administrative work, <strong>not automatic approval or compliance verification</strong>. Keep sensitive information out unless the intended use is authorised.</p>
+<p>These examples demonstrate assistance with work, <strong>not automatic approval or compliance verification</strong>. Keep sensitive information out unless the intended use is authorised.</p>
 
 
 </section>
 
 </main> <!-- /main -->
+<script>
+// A single handler for both Quarto callouts and the included HTML preview.
+(() => {
+  const exercises = new Map();
+  document.querySelectorAll('h2').forEach(heading => {
+    const section = heading.closest('section[id^="exercise-"]');
+    const id = section?.id || (heading.id?.startsWith('exercise-') ? heading.id : null);
+    const panel = heading.nextElementSibling;
+    if (!id || !panel?.matches('.callout, details')) return;
+
+    const toggle = panel.matches('details') ? null : panel.querySelector('[data-bs-toggle="collapse"]');
+    if (!panel.matches('details') && !toggle) return;
+    const isOpen = () => panel.matches('details') ? panel.open : toggle.getAttribute('aria-expanded') === 'true';
+    const setOpen = open => {
+      if (isOpen() !== open) {
+        if (panel.matches('details')) panel.open = open;
+        else toggle.click();
+      }
+      heading.setAttribute('aria-expanded', String(open));
+    };
+
+    exercises.set(id, { heading, setOpen });
+    heading.classList.add('exercise-title-toggle');
+    heading.tabIndex = 0;
+    heading.setAttribute('role', 'button');
+    heading.setAttribute('aria-expanded', String(isOpen()));
+    panel.classList.add('exercise-panel');
+    heading.addEventListener('click', event => {
+      if (event.target.closest('a')) return;
+      setOpen(heading.getAttribute('aria-expanded') !== 'true');
+    });
+    heading.addEventListener('keydown', event => {
+      if (event.key !== 'Enter' && event.key !== ' ') return;
+      event.preventDefault();
+      setOpen(heading.getAttribute('aria-expanded') !== 'true');
+    });
+  });
+
+  const navigate = id => {
+    const exercise = exercises.get(id);
+    if (!exercise) return;
+    exercise.setOpen(true);
+    // Expand before scrolling, so changing the document height cannot shift the target.
+    requestAnimationFrame(() => requestAnimationFrame(() =>
+      exercise.heading.scrollIntoView({ block: 'start', behavior: 'instant' })));
+  };
+
+  document.addEventListener('click', event => {
+    const link = event.target.closest('a[href^="#exercise-"]');
+    if (!link) return;
+    const id = decodeURIComponent(link.hash.slice(1));
+    if (!exercises.has(id)) return;
+    event.preventDefault();
+    event.stopPropagation();
+    if (location.hash !== link.hash) history.pushState(null, '', link.hash);
+    navigate(id);
+  }, true);
+
+  const navigateFromHash = () => navigate(decodeURIComponent(location.hash.slice(1)));
+  window.addEventListener('hashchange', navigateFromHash);
+  window.addEventListener('popstate', navigateFromHash);
+  if (location.hash) navigateFromHash();
+})();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

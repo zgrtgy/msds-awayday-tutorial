@@ -1,4 +1,4 @@
-# UU AI-Chat: Administrative workshop
+# MSDS GenAI away-day: Workshop on AI assistants
 
 A single-page, pick-your-own-exercise tutorial for making everyday university administrative work easier with UU AI-Chat.
 
