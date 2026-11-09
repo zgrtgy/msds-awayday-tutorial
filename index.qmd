@@ -1,5 +1,5 @@
 ---
-title: "AI assistants for everyday tasks"
+title: "AI assistants for common tasks"
 ---
 # Getting started {#getting-started}
 
@@ -64,7 +64,10 @@ These optional exercises demonstrate reusable instructions and workspaces. You c
 
 
 # Wrap-up and discussion
+**Which tasks would you consider using AI assistants for in your own work?** 
 
-**Which repetitive or time-consuming tasks would you most like AI to help with?** Which parts could be assisted with a chat or reusable setup, and which would still require your judgement, university system access or formal authorisation?
+# Going further with AI
+While we have focused on the basics here, AI assistants can help with more, such as creating websites, applications, or tools to automate repeated tasks. Are there any other possibilities you'd like to explore?
+
 
 For more information: [UU AI platforms](https://www.uu.nl/en/organisation/ai-policy/ai-platforms) · [UU guidance for employees](https://www.uu.nl/en/organisation/ai-policy/employees).
