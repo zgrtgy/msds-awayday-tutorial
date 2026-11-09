@@ -2,7 +2,7 @@
 
 ::: {.callout-note collapse="true" appearance="minimal" icon=false title="Open exercise"}
 
-**Scenario.** You often turn rough notes into emails. Save the recurring instructions under **Prompts** instead of typing them each time.
+**Scenario:** You often turn rough notes into emails. Save the same instructions under **Prompts** instead of typing them each time.
 
 **Try this:** Open **Prompts** in UU AI-Chat, add a new prompt, and name it *Staff email from rough notes*. Save **only the reusable instructions** below. Leave out details specific to one event.
 
@@ -19,6 +19,6 @@ Notes:
 
 > Office-hour change: from 7 December, walk-in support is on Tuesdays from 14:00 to 15:00 instead of 13:00 to 14:00. This arrangement ends after 19 December. Room B.14 is unchanged. Direct questions to `[contact]`.
 
-**Check:** Did the saved instructions work with the *new* information? Did the model retain the temporary dates, old/new time and contact placeholder? How would you improve the saved wording?
+**Check:** Did the saved instructions work with the *new* information? Did the assistant keep the start and end dates, the old and new times, and the contact placeholder? How would you improve the saved wording?
 
 :::

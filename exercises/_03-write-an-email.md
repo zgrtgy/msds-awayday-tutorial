@@ -2,15 +2,7 @@
 
 ::: {.callout-note collapse="true" appearance="minimal" icon=false title="Open exercise"}
 
-**Scenario.** You need to invite colleagues to a welcome session. You have rough notes but no finished message.
-
-**Your notes:**
-
-- Welcome session: **Wednesday 9 December 2026, 10:00–11:30**.
-- Purpose: introduce new colleagues to the department's support teams.
-- Room is **not yet confirmed**.
-- Ask people to register by **1 December** using `[registration link]`.
-- Tone: professional, friendly and concise.
+**Scenario:** You need to invite colleagues to a welcome session. You have rough notes but no finished message.
 
 **Try this prompt:**
 
@@ -20,7 +12,11 @@ Turn the notes below into a short, friendly email inviting colleagues to a welco
 Include a subject line, make the registration deadline clear, and keep [registration link] as a placeholder. Do not invent a room or other missing details.
 
 Notes:
-[PASTE THE NOTES ABOVE]
+- Welcome session: Wednesday 9 December 2026, 10:00–11:30.
+- Purpose: introduce new colleagues to the department's support teams.
+- Room: not yet confirmed.
+- Ask people to register by 1 December using [registration link].
+- Tone: professional, friendly and concise.
 ```
 
 **Then try:** Ask for a shorter version for an intranet announcement, or a more formal version for external guests.

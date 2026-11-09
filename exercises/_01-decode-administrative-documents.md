@@ -2,9 +2,9 @@
 
 ::: {.callout-note collapse="true" appearance="minimal" icon=false title="Open exercise"}
 
-**Scenario.** You have a procedure describing which expenses can be reimbursed after attending a work event. You want to know what to do without reading the entire guide repeatedly.
+**Scenario:** You have a procedure describing which expenses can be reimbursed after attending a work event. You want to know what to do without reading the entire guide repeatedly.
 
-**Attach:** [01_simulated_reimbursement_guide.md](materials/01_simulated_reimbursement_guide.md).
+**Use:** [01_simulated_reimbursement_guide.md](materials/01_simulated_reimbursement_guide.md).
 
 **Try this prompt:**
 
@@ -16,6 +16,6 @@ Give me a short checklist: what can be claimed, which approvals and receipts are
 
 **Then try:** Ask, “Can I claim a taxi without prior approval if it was more convenient?”
 
-**Check:** Did the answer accurately capture exceptions, documentation and deadlines? Can you find each important rule in the original file?
+**Check:** Did the answer include the special cases, required documents and deadlines? Can you find each important rule in the original file?
 
 :::

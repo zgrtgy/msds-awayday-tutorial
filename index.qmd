@@ -11,7 +11,11 @@ These short activities show how AI assistants can help with common tasks: summar
 
 [Link to slides](slides/UU_AI_Chat_Admin_Intro.pptx)
 
-All exercise material below are **AI generated** and do not come from official Utrecht University documents.
+All exercise materials below are **AI-generated examples**, not official Utrecht University documents.
+
+For this workshop, use the fictional examples or approved non-sensitive material. Do not upload confidential or sensitive work information unless the applicable UU rules allow it.
+
+AI assistants can make mistakes. Instructions such as "do not guess" can help, but do not guarantee accuracy. Check important information against the original documents.
 
 # Choose an exercise {#choose-exercise}
 
@@ -22,6 +26,8 @@ All exercise material below are **AI generated** and do not come from official U
 | Organise work | [4. Process meeting notes](#exercise-4-process-meeting-notes) · [8. Plan an event](#exercise-8-plan-a-departmental-event) · [9. Check a spreadsheet](#exercise-9-check-a-simple-spreadsheet) |
 | Personalise | [10. Try your own task](#exercise-10-bring-your-own-task) |
 | Make it reusable | [11. Saved Prompt](#exercise-11-save-a-prompt-for-repeated-emails) · [12. Persona](#exercise-12-build-a-reusable-form-reviewer-persona) · [13. Project](#exercise-13-use-a-project-across-separate-chats) |
+
+If you are new to AI assistants, Exercises 3, 4 and 7 are good starting points.
 
 ::: {.callout-tip appearance="minimal"}
 **UU AI-Chat features at a glance**
@@ -67,7 +73,7 @@ These optional exercises demonstrate reusable instructions and workspaces. You c
 **Which tasks would you consider using AI assistants for in your own work?** 
 
 # Going further with AI
-While we have focused on the basics here, AI assistants can help with more, such as creating websites, applications, or tools to automate repeated tasks. Are there any other possibilities you'd like to explore?
+While we have focused on the basics here, AI assistants can help with more, such as creating websites, applications, or tools to automate repeated tasks. Some of these activities require additional tools or steps beyond a regular chat. Are there any other possibilities you'd like to explore?
 
 
 For more information: [UU AI platforms](https://www.uu.nl/en/organisation/ai-policy/ai-platforms) · [UU guidance for employees](https://www.uu.nl/en/organisation/ai-policy/employees).
