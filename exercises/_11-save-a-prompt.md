@@ -2,14 +2,14 @@
 
 ::: {.callout-note collapse="true" appearance="minimal" icon=false title="Open exercise"}
 
-**Scenario.** You often turn rough notes into staff emails. Rather than typing the same instructions each time, you can save them under **Prompts**.
+**Scenario.** You often turn rough notes into emails. Save the recurring instructions under **Prompts** instead of typing them each time.
 
-**Try this:** Open **Prompts** in UU AI-Chat, add a new prompt, and name it *Staff email from rough notes*. Save **only the reusable instructions** below—not a specific event's details.
+**Try this:** Open **Prompts** in UU AI-Chat, add a new prompt, and name it *Staff email from rough notes*. Save **only the reusable instructions** below. Leave out details specific to one event.
 
 ```text
-Turn the notes below into a short, clear email for university staff.
+Turn the notes below into a short, clear email for colleagues.
 
-Include a subject line. Preserve names, dates, and deadlines. Use a professional, friendly tone. Do not invent missing details; flag them briefly.
+Include a subject line. Preserve names, dates, and deadlines. Use a professional, friendly tone. Do not invent missing details. Flag anything that needs clarification.
 
 Notes:
 [PASTE NEW NOTES HERE]

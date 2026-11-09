@@ -2,7 +2,7 @@
 
 ::: {.callout-note collapse="true" appearance="minimal" icon=false title="Open exercise"}
 
-**Scenario.** Planning an event spans multiple conversations. A Project helps keep related documents, decisions and chats in one place without placing everything in one long conversation.
+**Scenario.** An event may require several conversations. A Project keeps related documents, decisions and chats together.
 
 **Use:** [06_simulated_event_brief.md](materials/06_simulated_event_brief.md) and [10_simulated_event_status_update.md](materials/10_simulated_event_status_update.md).
 
@@ -13,8 +13,6 @@
 
 **Check:** Did Chat 2 take account of the updated decisions without losing the original event's objectives or constraints? Did it distinguish a room being *available* from *booked*? Did it avoid treating a proposed registration deadline as agreed?
 
-**Note:** Shared project context can help, but it is not perfect memory. If a detail is missing or wrong, refer the AI explicitly to the relevant project file or save a key decision in project knowledge (where available), then verify the answer again.
-
----
+**Note:** Shared Project context may not be applied consistently across chats. If a detail is missing or wrong, refer the AI explicitly to the relevant project file or save a key decision in project knowledge (where available), then verify the answer again.
 
 :::

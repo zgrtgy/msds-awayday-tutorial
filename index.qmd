@@ -19,7 +19,7 @@ All training documents are **fictional**, not official Utrecht University rules 
 
 | Task | Exercises |
 |---|---|
-| Understand and check documents | [1. Decode a guide](#exercise-1-decode-administrative-instructions) · [2. Review a form](#exercise-2-review-a-completed-form) · [5. Compare procedures](#exercise-5-compare-two-versions-of-a-procedure) · [6. Create an FAQ](#exercise-6-turn-a-procedure-into-an-faq) |
+| Read and check documents | [1. Decode a guide](#exercise-1-decode-administrative-instructions) · [2. Review a form](#exercise-2-review-a-completed-form) · [5. Compare procedures](#exercise-5-compare-two-versions-of-a-procedure) · [6. Create an FAQ](#exercise-6-turn-a-procedure-into-an-faq) |
 | Communicate | [3. Write an email](#exercise-3-draft-or-improve-an-email) · [7. Translate a message](#exercise-7-translate-and-simplify-a-message) |
 | Organise work | [4. Process meeting notes](#exercise-4-process-meeting-notes) · [8. Plan an event](#exercise-8-plan-a-departmental-event) · [9. Check a spreadsheet](#exercise-9-check-a-simple-spreadsheet) |
 | Personalise | [10. Try your own task](#exercise-10-bring-your-own-task) |

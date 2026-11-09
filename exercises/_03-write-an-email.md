@@ -2,7 +2,7 @@
 
 ::: {.callout-note collapse="true" appearance="minimal" icon=false title="Open exercise"}
 
-**Scenario.** You need to invite colleagues to a departmental welcome session. You have rough notes but no finished message.
+**Scenario.** You need to invite colleagues to a welcome session. You have rough notes but no finished message.
 
 **Your notes:**
 
@@ -15,7 +15,7 @@
 **Try this prompt:**
 
 ```text
-Turn the notes below into a short, friendly email inviting staff to a welcome session.
+Turn the notes below into a short, friendly email inviting colleagues to a welcome session.
 
 Include a subject line, make the registration deadline clear, and keep [registration link] as a placeholder. Do not invent a room or other missing details.
 

@@ -1,4 +1,4 @@
-## Exercise 1: Decode administrative instructions {#exercise-1-decode-administrative-instructions}
+## Exercise 1: Decode instructions {#exercise-1-decode-administrative-instructions}
 
 ::: {.callout-note collapse="true" appearance="minimal" icon=false title="Open exercise"}
 

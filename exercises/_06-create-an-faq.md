@@ -9,7 +9,7 @@
 **Try this prompt:**
 
 ```text
-Create a short FAQ for colleagues booking a departmental event, based only on the attached procedure.
+Create a short FAQ for colleagues booking an event, based only on the attached procedure.
 
 Include questions about room booking, hybrid/AV support, catering, accessibility and cancellations. Use plain language and refer to the source section for each answer. Mark anything the document does not specify instead of filling in the gaps.
 ```
