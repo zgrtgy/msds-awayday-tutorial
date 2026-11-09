@@ -1,0 +1,17 @@
+# Do not publish the instructor answer key in this public repo.
+/instructor/
+
+# Temporary Python/Quarto files
+__pycache__/
+*.pyc
+.quarto/
+*_cache/
+*_files/
+/.Rproj.user/
+.DS_Store
+Thumbs.db
+
+# Keep docs/ tracked: GitHub Pages publishes from it.
+
+/.quarto/
+**/*.quarto_ipynb

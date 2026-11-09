@@ -1,0 +1,75 @@
+---
+title: "UU AI-Chat: Everyday administrative tasks"
+subtitle: "Choose the exercises that fit your work"
+author: "Department workshop materials"
+---
+
+# Getting started {#getting-started}
+
+These short activities show how **UU AI-Chat** can help with common university tasks: understanding documents, checking forms, drafting emails, processing notes and planning activities. They are designed for lecturers, researchers and administrative staff; no programming experience is needed.
+
+1. Open **[UU AI-Chat](https://aichat.uu.nl/)** and sign in with your UU account.
+2. Use the **Contents** sidebar to choose an activity. Exercise sections start **collapsed**; open only those you want.
+3. Open or download the linked fictional material, then **paste its text or upload the file** where supported. Copy the suggested prompt into UU AI-Chat and inspect the result.
+
+[Optional introductory slides](slides/UU_AI_Chat_Admin_Intro.pptx)
+
+All training documents are **fictional**, not official Utrecht University rules or forms. Do not upload real confidential, personal, or sensitive records without the necessary permission and data-protection checks. Check AI responses against the original sources before using them.
+
+# Choose an exercise {#choose-exercise}
+
+| Task | Exercises |
+|---|---|
+| Understand and check documents | [1. Decode a guide](#exercise-1-decode-administrative-instructions) · [2. Review a form](#exercise-2-review-a-completed-form) · [5. Compare procedures](#exercise-5-compare-two-versions-of-a-procedure) · [6. Create an FAQ](#exercise-6-turn-a-procedure-into-an-faq) |
+| Communicate | [3. Write an email](#exercise-3-draft-or-improve-an-email) · [7. Translate a message](#exercise-7-translate-and-simplify-a-message) |
+| Organise work | [4. Process meeting notes](#exercise-4-process-meeting-notes) · [8. Plan an event](#exercise-8-plan-a-departmental-event) · [9. Check a spreadsheet](#exercise-9-check-a-simple-spreadsheet) |
+| Personalise | [10. Try your own task](#exercise-10-bring-your-own-task) |
+| Make it reusable | [11. Saved Prompt](#exercise-11-save-a-prompt-for-repeated-emails) · [12. Persona](#exercise-12-build-a-reusable-form-reviewer-persona) · [13. Project](#exercise-13-use-a-project-across-separate-chats) |
+
+::: {.callout-tip appearance="minimal"}
+**UU AI-Chat features at a glance**
+
+**Chat** handles a one-off task; **saved Prompts** reuse instructions; **Personas** reuse an assistant's working method or reference material; **Projects** keep related chats and files together. These features assist work—they do not automatically send emails, approve forms or change university systems.
+:::
+
+# Everyday administrative tasks
+
+{{< include exercises/_01-decode-administrative-documents.md >}}
+
+{{< include exercises/_02-review-a-form.md >}}
+
+{{< include exercises/_03-write-an-email.md >}}
+
+{{< include exercises/_04-process-meeting-notes.md >}}
+
+{{< include exercises/_05-compare-procedures.md >}}
+
+{{< include exercises/_06-create-an-faq.md >}}
+
+{{< include exercises/_07-translate-and-simplify.md >}}
+
+{{< include exercises/_08-plan-an-event.md >}}
+
+{{< include exercises/_09-check-a-spreadsheet.md >}}
+
+{{< include exercises/_10-try-your-own-task.md >}}
+
+
+# Make repeated tasks easier
+
+These optional exercises demonstrate reusable instructions and workspaces. You can skip them or complete them without doing the earlier activities.
+
+{{< include exercises/_11-save-a-prompt.md >}}
+
+{{< include exercises/_12-build-a-persona.md >}}
+
+{{< include exercises/_13-use-a-project.md >}}
+
+
+# Wrap-up and discussion
+
+**Which repetitive or time-consuming administrative tasks would you most like AI to help with?** Which parts could be assisted with a chat or reusable setup, and which would still require your judgement, university system access or formal authorisation?
+
+For more information: [UU AI platforms](https://www.uu.nl/en/organisation/ai-policy/ai-platforms) · [UU guidance for employees](https://www.uu.nl/en/organisation/ai-policy/employees).
+
+These examples demonstrate assistance with administrative work, **not automatic approval or compliance verification**. Keep sensitive information out unless the intended use is authorised.

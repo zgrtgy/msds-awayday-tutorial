@@ -1,0 +1,22 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - index.qmd
+  resources:
+    - "materials/**"
+    - "slides/**"
+
+website:
+  title: "UU AI-Chat: Administrative tasks"
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-location: left
+    toc-depth: 2
+    code-copy: true
+    code-overflow: wrap
+    embed-resources: true
+    css: styles.css

@@ -1,0 +1,11 @@
+﻿order_id,item,category,quantity,unit_price_eur,reported_total_eur
+O-01,Name badges,Printing,4,12.5,50.0
+O-02,Flipchart paper,Supplies,3,8.4,25.2
+O-03,Pens,Supplies,10,1.2,12.0
+O-04,Marker packs,Supplies,2,7.25,12.5
+O-05,Lanyards,Printing,30,0.8,24.0
+O-06,Table signs,Printing,5,3.6,18.0
+O-07,Folders,Printing,25,1.1,27.5
+O-08,Notepads,Supplies,15,2.4,35.0
+O-09,Spare adapters,Equipment,2,19.95,39.9
+O-10,Mailing labels,Supplies,3,5.1,15.3

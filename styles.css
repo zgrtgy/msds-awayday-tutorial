@@ -1,0 +1,7 @@
+/* Small adjustments on top of Quarto's Cosmo theme. */
+:root { --bs-link-color: #24527a; }
+main .callout { margin-top: 0.5rem; margin-bottom: 1rem; }
+main .callout .callout-header { cursor: pointer; }
+main pre { white-space: pre-wrap; overflow-wrap: anywhere; }
+main pre code { white-space: pre-wrap; overflow-wrap: anywhere; }
+#TOC { max-height: calc(100vh - 5rem); overflow-y: auto; }
