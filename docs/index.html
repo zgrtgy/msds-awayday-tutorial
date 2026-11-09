@@ -4051,7 +4051,7 @@ font-size: 2rem;
   <li><a href="#exercise-3-draft-or-improve-an-email" id="toc-exercise-3-draft-or-improve-an-email" class="nav-link" data-scroll-target="#exercise-3-draft-or-improve-an-email">Exercise 3: Draft or improve an email</a></li>
   <li><a href="#exercise-4-process-meeting-notes" id="toc-exercise-4-process-meeting-notes" class="nav-link" data-scroll-target="#exercise-4-process-meeting-notes">Exercise 4: Process meeting notes</a></li>
   <li><a href="#exercise-5-compare-two-versions-of-a-procedure" id="toc-exercise-5-compare-two-versions-of-a-procedure" class="nav-link" data-scroll-target="#exercise-5-compare-two-versions-of-a-procedure">Exercise 5: Compare two versions of a procedure</a></li>
-  <li><a href="#exercise-6-turn-a-procedure-into-an-faq" id="toc-exercise-6-turn-a-procedure-into-an-faq" class="nav-link" data-scroll-target="#exercise-6-turn-a-procedure-into-an-faq">Exercise 6: Turn a procedure into an FAQ</a></li>
+  <li><a href="#exercise-6-turn-a-procedure-into-an-faq" id="toc-exercise-6-turn-a-procedure-into-an-faq" class="nav-link" data-scroll-target="#exercise-6-turn-a-procedure-into-an-faq">Exercise 6: Create frequently asked questions (FAQ)</a></li>
   <li><a href="#exercise-7-translate-and-simplify-a-message" id="toc-exercise-7-translate-and-simplify-a-message" class="nav-link" data-scroll-target="#exercise-7-translate-and-simplify-a-message">Exercise 7: Translate and simplify a message</a></li>
   <li><a href="#exercise-8-plan-a-departmental-event" id="toc-exercise-8-plan-a-departmental-event" class="nav-link" data-scroll-target="#exercise-8-plan-a-departmental-event">Exercise 8: Plan an event</a></li>
   <li><a href="#exercise-9-check-a-simple-spreadsheet" id="toc-exercise-9-check-a-simple-spreadsheet" class="nav-link" data-scroll-target="#exercise-9-check-a-simple-spreadsheet">Exercise 9: Check a simple spreadsheet</a></li>
@@ -4103,7 +4103,9 @@ font-size: 2rem;
 <li>Open or download the linked materials and share them with UU AI-Chat by <strong>pasting the text</strong> or <strong>uploading the files</strong>. You can use the suggested prompt as a starting point and adapt it to your needs.</li>
 </ol>
 <p><a href="slides/UU_AI_Chat_Admin_Intro.pptx">Link to slides</a></p>
-<p>All exercise material below are <strong>AI generated</strong> and do not come from official Utrecht University documents.</p>
+<p>All exercise materials below are <strong>AI-generated examples</strong>, not official Utrecht University documents.</p>
+<p>For this workshop, use the fictional examples or approved non-sensitive material. Do not upload confidential or sensitive work information unless the applicable UU rules allow it.</p>
+<p>AI assistants can make mistakes. Instructions such as “do not guess” can help, but do not guarantee accuracy. Check important information against the original documents.</p>
 </section>
 <section id="choose-exercise" class="level1">
 <h1>Choose an exercise</h1>
@@ -4137,6 +4139,7 @@ font-size: 2rem;
 </tr>
 </tbody>
 </table>
+<p>If you are new to AI assistants, Exercises 3, 4 and 7 are good starting points.</p>
 <div class="callout callout-style-simple callout-tip no-icon">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
@@ -4165,14 +4168,14 @@ font-size: 2rem;
 </div>
 <div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p><strong>Scenario.</strong> You have a procedure describing which expenses can be reimbursed after attending a work event. You want to know what to do without reading the entire guide repeatedly.</p>
-<p><strong>Attach:</strong> <a href="materials/01_simulated_reimbursement_guide.md">01_simulated_reimbursement_guide.md</a>.</p>
+<p><strong>Scenario:</strong> You have a procedure describing which expenses can be reimbursed after attending a work event. You want to know what to do without reading the entire guide repeatedly.</p>
+<p><strong>Use:</strong> <a href="materials/01_simulated_reimbursement_guide.md">01_simulated_reimbursement_guide.md</a>.</p>
 <p><strong>Try this prompt:</strong></p>
 <pre class="text"><code>Explain the attached reimbursement guide to a colleague who has just attended a one-day work event.
 
 Give me a short checklist: what can be claimed, which approvals and receipts are needed, and when the claim is due. Point to the relevant sections of the guide. If the guide does not answer something, say so rather than guessing.</code></pre>
 <p><strong>Then try:</strong> Ask, “Can I claim a taxi without prior approval if it was more convenient?”</p>
-<p><strong>Check:</strong> Did the answer accurately capture exceptions, documentation and deadlines? Can you find each important rule in the original file?</p>
+<p><strong>Check:</strong> Did the answer include the special cases, required documents and deadlines? Can you find each important rule in the original file?</p>
 </div>
 </div>
 </div>
@@ -4191,14 +4194,20 @@ Give me a short checklist: what can be claimed, which approvals and receipts are
 </div>
 <div id="callout-2" class="callout-2-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p><strong>Scenario.</strong> A draft reimbursement claim needs a second check before submission. The draft deliberately contains several mistakes and missing details.</p>
-<p><strong>Attach:</strong> <a href="materials/01_simulated_reimbursement_guide.md">01_simulated_reimbursement_guide.md</a> <strong>and</strong> <a href="materials/02_simulated_completed_claim.md">02_simulated_completed_claim.md</a>.</p>
+<p><strong>Scenario:</strong> A draft reimbursement claim needs a second check before submission. The draft deliberately contains several mistakes and missing details.</p>
+<p><strong>Use:</strong> <a href="materials/01_simulated_reimbursement_guide.md">01_simulated_reimbursement_guide.md</a> <strong>and</strong> <a href="materials/02_simulated_completed_claim.md">02_simulated_completed_claim.md</a>.</p>
 <p><strong>Try this prompt:</strong></p>
 <pre class="text"><code>Review the attached completed claim against the attached reimbursement guide.
 
-List possible mistakes or missing information in a table with: item, problem, relevant rule, and suggested next step. Check the arithmetic. Distinguish clear mismatches from points that need clarification. Do not assume that missing approvals exist or that the claim has been approved.</code></pre>
-<p><strong>Then try:</strong> Ask which entries appear to comply with the guide, not just which ones are problematic.</p>
-<p><strong>Check:</strong> Did it catch the deliberate issues without inventing additional requirements? Did it distinguish a definite error from an open question? Review the findings before deciding what to change or submit.</p>
+List possible mistakes or missing information in a table with: item, problem, relevant rule, and suggested next step. Check the calculations. Separate clear errors from points that need clarification. Do not assume that missing approvals exist or that the claim has been approved.</code></pre>
+<p><strong>Then try:</strong> Ask which entries follow the guide, not just which ones have problems.</p>
+<p><strong>Check:</strong> Did it find the deliberate mistakes without adding rules that are not in the guide? Did it separate clear mistakes from questions that need clarification? Review the findings before changing or submitting the claim.</p>
+<details>
+<summary>
+What to look for (after trying)
+</summary>
+<p>For example, the cost centre is blank, and the expenses add up to €262.60, not €263.60. Check the rules for approvals, receipts and deadlines too.</p>
+</details>
 <p><strong>Want to reuse this?</strong> Try <a href="#exercise-12-build-a-reusable-form-reviewer-persona">Exercise 12</a> to configure a form-reviewing Persona and test it on a different claim.</p>
 </div>
 </div>
@@ -4218,22 +4227,18 @@ List possible mistakes or missing information in a table with: item, problem, re
 </div>
 <div id="callout-3" class="callout-3-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p><strong>Scenario.</strong> You need to invite colleagues to a welcome session. You have rough notes but no finished message.</p>
-<p><strong>Your notes:</strong></p>
-<ul>
-<li>Welcome session: <strong>Wednesday 9 December 2026, 10:00–11:30</strong>.</li>
-<li>Purpose: introduce new colleagues to the department’s support teams.</li>
-<li>Room is <strong>not yet confirmed</strong>.</li>
-<li>Ask people to register by <strong>1 December</strong> using <code>[registration link]</code>.</li>
-<li>Tone: professional, friendly and concise.</li>
-</ul>
+<p><strong>Scenario:</strong> You need to invite colleagues to a welcome session. You have rough notes but no finished message.</p>
 <p><strong>Try this prompt:</strong></p>
 <pre class="text"><code>Turn the notes below into a short, friendly email inviting colleagues to a welcome session.
 
 Include a subject line, make the registration deadline clear, and keep [registration link] as a placeholder. Do not invent a room or other missing details.
 
 Notes:
-[PASTE THE NOTES ABOVE]</code></pre>
+- Welcome session: Wednesday 9 December 2026, 10:00–11:30.
+- Purpose: introduce new colleagues to the department&#39;s support teams.
+- Room: not yet confirmed.
+- Ask people to register by 1 December using [registration link].
+- Tone: professional, friendly and concise.</code></pre>
 <p><strong>Then try:</strong> Ask for a shorter version for an intranet announcement, or a more formal version for external guests.</p>
 <p><strong>Check:</strong> Did it preserve all dates and avoid making up a venue? Is the tone appropriate for the recipients?</p>
 <p><strong>Want to reuse this?</strong> Try <a href="#exercise-11-save-a-prompt-for-repeated-emails">Exercise 11</a> to save the reusable writing instructions, without saving this event’s details.</p>
@@ -4255,14 +4260,14 @@ Notes:
 </div>
 <div id="callout-4" class="callout-4-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p><strong>Scenario.</strong> You have rough notes from a planning meeting and need to identify decisions and next steps.</p>
-<p><strong>Attach:</strong> <a href="materials/03_simulated_meeting_notes.md">03_simulated_meeting_notes.md</a>.</p>
+<p><strong>Scenario:</strong> You have rough notes from a planning meeting and need to identify decisions and next steps.</p>
+<p><strong>Use:</strong> <a href="materials/03_simulated_meeting_notes.md">03_simulated_meeting_notes.md</a>.</p>
 <p><strong>Try this prompt:</strong></p>
-<pre class="text"><code>Turn these meeting notes into a concise follow-up summary.
+<pre class="text"><code>Turn these meeting notes into a short follow-up summary.
 
 Separate confirmed decisions, action items (with owners and deadlines where stated), proposals that are not yet agreed, and unresolved questions. Do not invent responsibilities or turn suggestions into decisions.</code></pre>
 <p><strong>Then try:</strong> Ask for a short follow-up email to the attendees based on the same notes.</p>
-<p><strong>Check:</strong> Did it correctly distinguish confirmed arrangements from tentative suggestions? Are owners and deadlines supported by the notes?</p>
+<p><strong>Check:</strong> Did it separate confirmed decisions from suggestions? Are the people responsible and the deadlines supported by the notes?</p>
 </div>
 </div>
 </div>
@@ -4281,20 +4286,20 @@ Separate confirmed decisions, action items (with owners and deadlines where stat
 </div>
 <div id="callout-5" class="callout-5-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p><strong>Scenario.</strong> A room-booking procedure has been updated. You want to know what changed and which version applies.</p>
-<p><strong>Attach:</strong> <a href="materials/04_room_booking_procedure_v1.md">04_room_booking_procedure_v1.md</a> and <a href="materials/05_room_booking_procedure_v2.md">05_room_booking_procedure_v2.md</a>.</p>
+<p><strong>Scenario:</strong> A room-booking procedure has been updated. You want to know what changed and which version applies.</p>
+<p><strong>Use:</strong> <a href="materials/04_room_booking_procedure_v1.md">04_room_booking_procedure_v1.md</a> and <a href="materials/05_room_booking_procedure_v2.md">05_room_booking_procedure_v2.md</a>.</p>
 <p><strong>Try this prompt:</strong></p>
 <pre class="text"><code>Compare the two attached versions of the room-booking procedure.
 
-Make a short table showing the substantive changes, including deadlines and accessibility arrangements. Explain when each version applies. Keep the explanation grounded in the documents, and note which rules have not changed.</code></pre>
+Make a short table showing the important changes, including deadlines and accessibility arrangements. Explain when each version applies. Base the explanation on the documents, and note which rules have not changed.</code></pre>
 <p><strong>Then try:</strong> Ask which version applies to a request submitted on <strong>28 October 2026</strong> for an event taking place on <strong>20 November 2026</strong>.</p>
-<p><strong>Check:</strong> Did it notice the transition rule and avoid assuming the event date alone determines which version applies?</p>
+<p><strong>Check:</strong> Did it notice the rule about when the updated procedure takes effect, rather than using only the event date?</p>
 </div>
 </div>
 </div>
 </section>
 <section id="exercise-6-turn-a-procedure-into-an-faq" class="level2">
-<h2 class="anchored" data-anchor-id="exercise-6-turn-a-procedure-into-an-faq">Exercise 6: Turn a procedure into an FAQ</h2>
+<h2 class="anchored" data-anchor-id="exercise-6-turn-a-procedure-into-an-faq">Exercise 6: Create frequently asked questions (FAQ)</h2>
 <div class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -4307,10 +4312,10 @@ Make a short table showing the substantive changes, including deadlines and acce
 </div>
 <div id="callout-6" class="callout-6-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p><strong>Scenario.</strong> Colleagues keep asking the same questions about booking rooms, equipment and catering.</p>
-<p><strong>Attach:</strong> <a href="materials/05_room_booking_procedure_v2.md">05_room_booking_procedure_v2.md</a>.</p>
+<p><strong>Scenario:</strong> Colleagues keep asking the same questions about booking rooms, equipment and catering.</p>
+<p><strong>Use:</strong> <a href="materials/05_room_booking_procedure_v2.md">05_room_booking_procedure_v2.md</a>.</p>
 <p><strong>Try this prompt:</strong></p>
-<pre class="text"><code>Create a short FAQ for colleagues booking an event, based only on the attached procedure.
+<pre class="text"><code>Create a short list of frequently asked questions (FAQ) for colleagues booking an event, based only on the attached procedure.
 
 Include questions about room booking, hybrid/AV support, catering, accessibility and cancellations. Use plain language and refer to the source section for each answer. Mark anything the document does not specify instead of filling in the gaps.</code></pre>
 <p><strong>Then try:</strong> Ask for a one-page checklist instead of an FAQ.</p>
@@ -4333,14 +4338,14 @@ Include questions about room booking, hybrid/AV support, catering, accessibility
 </div>
 <div id="callout-7" class="callout-7-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p><strong>Scenario.</strong> You are preparing an English version of a Dutch announcement for international colleagues.</p>
-<p><strong>Attach:</strong> <a href="materials/07_simulated_dutch_announcement.md">07_simulated_dutch_announcement.md</a>.</p>
+<p><strong>Scenario:</strong> You are preparing an English version of a Dutch announcement for international colleagues.</p>
+<p><strong>Use:</strong> <a href="materials/07_simulated_dutch_announcement.md">07_simulated_dutch_announcement.md</a>.</p>
 <p><strong>Try this prompt:</strong></p>
 <pre class="text"><code>Translate the attached Dutch announcement into clear, natural English for international colleagues.
 
 Keep the dates, registration deadline, and distinction between confirmed and unconfirmed details exactly as in the original. Use clear, professional language without adding new information.</code></pre>
-<p><strong>Then try:</strong> Ask for a shorter version suitable for a newsletter or a plain-Dutch rewrite of the original.</p>
-<p><strong>Check:</strong> Did it preserve what is still uncertain? Would a colleague be able to act on the translated message?</p>
+<p><strong>Then try:</strong> Ask for a shorter version suitable for a newsletter or a simpler Dutch version of the original.</p>
+<p><strong>Check:</strong> Did it keep the details that are not yet confirmed? Would a colleague be able to act on the translated message?</p>
 </div>
 </div>
 </div>
@@ -4359,14 +4364,14 @@ Keep the dates, registration deadline, and distinction between confirmed and unc
 </div>
 <div id="callout-8" class="callout-8-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p><strong>Scenario.</strong> You have an initial event brief, but the organisers still need a practical plan.</p>
-<p><strong>Attach:</strong> <a href="materials/06_simulated_event_brief.md">06_simulated_event_brief.md</a>.</p>
+<p><strong>Scenario:</strong> You have an initial event brief, but the organisers still need a practical plan.</p>
+<p><strong>Use:</strong> <a href="materials/06_simulated_event_brief.md">06_simulated_event_brief.md</a>.</p>
 <p><strong>Try this prompt:</strong></p>
 <pre class="text"><code>Turn the attached event brief into a practical preparation checklist.
 
-Group tasks into what is already assigned, what still needs an owner, and decisions that are still open. Include stated deadlines and flag dependencies (for example, what must happen before invitations can be sent). Do not assume that rooms, spending or hybrid arrangements have been approved.</code></pre>
+Group tasks into what is already assigned, what still needs an owner, and decisions that are still open. Include stated deadlines and identify tasks that must happen before others (for example, what must happen before invitations can be sent). Do not assume that rooms, spending or hybrid arrangements have been approved.</code></pre>
 <p><strong>Then try:</strong> Ask for a draft agenda that fits the event objectives and duration, clearly labelled as a proposal.</p>
-<p><strong>Check:</strong> Did it preserve the difference between known facts, suggestions and unconfirmed arrangements?</p>
+<p><strong>Check:</strong> Did it separate confirmed facts, suggestions and arrangements that are not yet confirmed?</p>
 <p><strong>Want to reuse this?</strong> Try <a href="#exercise-13-use-a-project-across-separate-chats">Exercise 13</a> to create an event Project and update the plan across two chats.</p>
 </div>
 </div>
@@ -4386,14 +4391,20 @@ Group tasks into what is already assigned, what still needs an owner, and decisi
 </div>
 <div id="callout-9" class="callout-9-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p><strong>Scenario.</strong> You have a small list of purchases for an event and want to check the calculations.</p>
-<p><strong>Attach:</strong> <a href="materials/08_simulated_purchases.csv">08_simulated_purchases.csv</a>.</p>
+<p><strong>Scenario:</strong> You have a small list of purchases for an event and want to check the calculations.</p>
+<p><strong>Use:</strong> <a href="materials/08_simulated_purchases.csv">08_simulated_purchases.csv</a>.</p>
 <p><strong>Try this prompt:</strong></p>
 <pre class="text"><code>Check the attached purchase list. For each row, compare quantity × unit price with the reported total.
 
-Identify discrepancies in a small table, show the correct calculations, and explain how I could do this check with an Excel formula. Do not silently correct the source data. Summarise the total difference, if any.</code></pre>
+List incorrect totals in a small table, show the correct calculations, and explain how I could do this check with an Excel formula. Do not silently correct the source data. Summarise the total difference, if any.</code></pre>
 <p><strong>Then try:</strong> Ask which items contribute most to the total estimated cost, or ask for a formula to calculate the total by category.</p>
-<p><strong>Check:</strong> Did it identify the right rows and calculate accurately? Can you verify a couple of items yourself with a calculator?</p>
+<p><strong>Check:</strong> Did it identify the correct rows and calculate accurately? Can you verify a couple of items yourself with a calculator?</p>
+<details>
+<summary>
+What to look for (after trying)
+</summary>
+<p>The marker packs should cost €14.50, not €12.50. The notepads should cost €36.00, not €35.00.</p>
+</details>
 </div>
 </div>
 </div>
@@ -4412,7 +4423,7 @@ Identify discrepancies in a small table, show the correct calculations, and expl
 </div>
 <div id="callout-10" class="callout-10-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p><strong>Scenario.</strong> You have a recurring task that is not covered by the examples.</p>
+<p><strong>Scenario:</strong> You have a task you do regularly that is not covered by the examples.</p>
 <p><strong>Choose a real <em>type of task</em>, but use fictional or approved non-sensitive example content.</strong> For example: rewriting reminders, summarising guidance, making a checklist or checking the structure of a form.</p>
 <p><strong>Prompt starter:</strong></p>
 <pre class="text"><code>I often need to [DESCRIBE A ROUTINE TASK]. Here is a fictional example of the information I work with: [EXAMPLE].
@@ -4441,7 +4452,7 @@ Help me produce [DESIRED OUTPUT]. Keep these constraints in mind: [IMPORTANT RUL
 </div>
 <div id="callout-11" class="callout-11-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p><strong>Scenario.</strong> You often turn rough notes into emails. Save the recurring instructions under <strong>Prompts</strong> instead of typing them each time.</p>
+<p><strong>Scenario:</strong> You often turn rough notes into emails. Save the same instructions under <strong>Prompts</strong> instead of typing them each time.</p>
 <p><strong>Try this:</strong> Open <strong>Prompts</strong> in UU AI-Chat, add a new prompt, and name it <em>Staff email from rough notes</em>. Save <strong>only the reusable instructions</strong> below. Leave out details specific to one event.</p>
 <pre class="text"><code>Turn the notes below into a short, clear email for colleagues.
 
@@ -4453,7 +4464,7 @@ Notes:
 <blockquote class="blockquote">
 <p>Office-hour change: from 7 December, walk-in support is on Tuesdays from 14:00 to 15:00 instead of 13:00 to 14:00. This arrangement ends after 19 December. Room B.14 is unchanged. Direct questions to <code>[contact]</code>.</p>
 </blockquote>
-<p><strong>Check:</strong> Did the saved instructions work with the <em>new</em> information? Did the model retain the temporary dates, old/new time and contact placeholder? How would you improve the saved wording?</p>
+<p><strong>Check:</strong> Did the saved instructions work with the <em>new</em> information? Did the assistant keep the start and end dates, the old and new times, and the contact placeholder? How would you improve the saved wording?</p>
 </div>
 </div>
 </div>
@@ -4472,21 +4483,21 @@ Notes:
 </div>
 <div id="callout-12" class="callout-12-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p><strong>Scenario.</strong> If you review forms regularly, a Persona can reuse the same instructions for each new form.</p>
+<p><strong>Scenario:</strong> If you review forms regularly, a Persona can reuse the same instructions for each new form.</p>
 <p><strong>Use:</strong> <a href="materials/01_simulated_reimbursement_guide.md">01_simulated_reimbursement_guide.md</a>, <a href="materials/02_simulated_completed_claim.md">02_simulated_completed_claim.md</a>, and <a href="materials/09_simulated_second_claim.md">09_simulated_second_claim.md</a>.</p>
 <ol type="1">
 <li>If you have not done Exercise 2, first attach the guide and first claim to a normal chat and request a check using the Exercise 2 prompt.</li>
 <li>Open <strong>Personas</strong> and create a Persona named <em>Expense claim reviewer</em>. Give it the instructions below. If the Persona editor supports <strong>Sources/reference documents</strong>, attach the fictional reimbursement guide there. Otherwise attach the guide whenever you use the Persona.</li>
 <li>Open a <strong>new chat using the Persona</strong> and attach <a href="materials/09_simulated_second_claim.md">09_simulated_second_claim.md</a> (and the guide if it is not attached to the Persona).</li>
-<li>Ask: <em>Review this draft claim against the reimbursement guide. What requires attention, and what appears compliant?</em></li>
+<li>Ask: <em>Review this draft claim against the reimbursement guide. What needs attention, and which parts follow the rules?</em></li>
 </ol>
-<p><strong>Persona instructions</strong> (save these as the Persona’s working method, not as a one-time chat message):</p>
+<p><strong>Persona instructions:</strong> Save these in the Persona, not as a one-time chat message.</p>
 <pre class="text"><code>Review draft expense claims against a supplied procedure.
 
 Check required fields, supporting receipts, approvals, deadlines, expense limits and arithmetic. For possible problems, cite the relevant rule and the form entry. Separate confirmed mismatches from missing documentation or uncertainty.
 
 Use only the supplied guide as the authority. Do not invent requirements, approve claims or submit anything. End with a short list of issues for a person to review.</code></pre>
-<p><strong>Check:</strong> Does the Persona identify the <em>new</em> claim’s issues without carrying over problems unique to the first claim? Can it show which rules support its findings? Would a saved Prompt be sufficient here, or does the Persona offer a useful advantage?</p>
+<p><strong>Check:</strong> Does the Persona identify problems in the <em>new</em> claim without repeating problems unique to the first claim? Can it show which rules support its findings? Would a saved Prompt be enough here, or does the Persona offer a useful advantage?</p>
 <p><em>If source attachment or Persona settings differ in UU AI-Chat, keep the instructions in the Persona and attach the guide within the chat. The aim is to test reusable instructions, not a particular settings panel.</em></p>
 </div>
 </div>
@@ -4506,7 +4517,7 @@ Use only the supplied guide as the authority. Do not invent requirements, approv
 </div>
 <div id="callout-13" class="callout-13-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p><strong>Scenario.</strong> An event may require several conversations. A Project keeps related documents, decisions and chats together.</p>
+<p><strong>Scenario:</strong> An event may require several conversations. A Project keeps related documents, decisions and chats together.</p>
 <p><strong>Use:</strong> <a href="materials/06_simulated_event_brief.md">06_simulated_event_brief.md</a> and <a href="materials/10_simulated_event_status_update.md">10_simulated_event_status_update.md</a>.</p>
 <ol type="1">
 <li>Open <strong>Projects</strong>, create <em>Interdisciplinary Staff Afternoon</em>, and add the two fictional files to the <strong>Project</strong> (not just a single chat).</li>
@@ -4514,7 +4525,7 @@ Use only the supplied guide as the authority. Do not invent requirements, approv
 <li>In <strong>Chat 1</strong>, ask: <em>From the event brief, what needs doing, who owns it, and what is undecided?</em></li>
 <li>In <strong>Chat 2</strong>, ask: <em>Using the event brief and the latest status update in this Project, draft a concise status email for the organisers. What changed, and what is still open?</em></li>
 </ol>
-<p><strong>Check:</strong> Did Chat 2 take account of the updated decisions without losing the original event’s objectives or constraints? Did it distinguish a room being <em>available</em> from <em>booked</em>? Did it avoid treating a proposed registration deadline as agreed?</p>
+<p><strong>Check:</strong> Did Chat 2 use the updated decisions while keeping the original event’s goals and requirements? Did it distinguish a room being <em>available</em> from <em>booked</em>? Did it avoid treating a proposed registration deadline as agreed?</p>
 <p><strong>Note:</strong> Shared Project context may not be applied consistently across chats. If a detail is missing or wrong, refer the AI explicitly to the relevant project file or save a key decision in project knowledge (where available), then verify the answer again.</p>
 </div>
 </div>
@@ -4527,7 +4538,7 @@ Use only the supplied guide as the authority. Do not invent requirements, approv
 </section>
 <section id="going-further-with-ai" class="level1">
 <h1>Going further with AI</h1>
-<p>While we have focused on the basics here, AI assistants can help with more, such as creating websites, applications, or tools to automate repeated tasks. Are there any other possibilities you’d like to explore?</p>
+<p>While we have focused on the basics here, AI assistants can help with more, such as creating websites, applications, or tools to automate repeated tasks. Some of these activities require additional tools or steps beyond a regular chat. Are there any other possibilities you’d like to explore?</p>
 <p>For more information: <a href="https://www.uu.nl/en/organisation/ai-policy/ai-platforms">UU AI platforms</a> · <a href="https://www.uu.nl/en/organisation/ai-policy/employees">UU guidance for employees</a>.</p>
 
 
